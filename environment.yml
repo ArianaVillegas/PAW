@@ -1,0 +1,23 @@
+name: paw
+channels:
+  - conda-forge
+dependencies:
+  - pytorch
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - lightning
+  - ca-certificates
+  - openssl
+  - matplotlib
+  - certifi
+  - obspy
+  - tensorboard
+  - ipykernel
+  - basemap
+  - tqdm
+  - h5py
+  - torchvision
+  - conda-forge::geopy
+  - seaborn
