@@ -154,5 +154,5 @@ cython_debug/
 
 # Remove files
 *.txt
-*_old/
+*.h5
 lightning_logs/

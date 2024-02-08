@@ -8,7 +8,7 @@ Existing automated systems designed to pick seismic phase amplitudes and periods
 
 ## Dataset Details
 
-Download dataset from [here](https://huggingface.co/datasets/suroRitch/PAW/tree/main)
+Download dataset from [here](https://huggingface.co/datasets/suroRitch/PAW/tree/main) and place it in the root directory of this project.
 
 The dataset consists of 80,648 waveforms. The `dataset.h5` file contains two keys:
 - `waveforms`: A numpy array with a shape of (80648, 200, 1) representing the waveforms.

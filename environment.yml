@@ -1,23 +1,21 @@
 name: paw
 channels:
+  - pytorch
+  - defaults
+  - anaconda
   - conda-forge
 dependencies:
-  - pytorch
-  - numpy
-  - pandas
-  - scipy
-  - scikit-learn
-  - lightning
-  - ca-certificates
-  - openssl
-  - matplotlib
-  - certifi
-  - obspy
-  - tensorboard
-  - ipykernel
-  - basemap
-  - tqdm
-  - h5py
-  - torchvision
-  - conda-forge::geopy
-  - seaborn
+  - pytorch=2.1.1
+  - numpy=1.26.0
+  - pandas=2.1.2
+  - scipy=1.11.3
+  - scikit-learn=1.3.2
+  - pytorch-lightning=2.1.3
+  - matplotlib=3.6.2
+  - obspy=1.4.0
+  - tensorboard=2.15.1
+  - ipykernel=6.26.0
+  - basemap=1.3.6
+  - h5py=3.10.0
+  - torchvision=0.16.1
+  - conda-forge::geopy=2.4.1
