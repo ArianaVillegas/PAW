@@ -114,6 +114,11 @@ if __name__ == '__main__':
 	forward_time = []
 	t = np.arange(0, 5+freq, freq)
 	pre_data, pre_labels = preprocess(data, labels, metric, t, freq, scale_type, padding, args.label_type)
+ 
+	# Change data to float32
+	pre_data = pre_data.astype(np.float32)
+	pre_labels = pre_labels.astype(np.float32)
+ 
 	dataset = SeismicDataset(pre_data, pre_labels)
 	loader = DataLoader(dataset, batch_size=batch, shuffle=False, num_workers=2)
 
