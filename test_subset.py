@@ -17,6 +17,10 @@ from src.utils import AmpPerLoss
 from src.dataloader import SeismicDataset
 
 
+import torch.multiprocessing as mp
+
+mp.set_sharing_strategy('file_system')
+
 
 if __name__ == '__main__':
 	"""
